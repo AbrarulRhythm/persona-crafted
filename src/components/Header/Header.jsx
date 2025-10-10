@@ -6,11 +6,12 @@ import { FiDownload } from 'react-icons/fi';
 import { HiBars2 } from 'react-icons/hi2';
 import { Link, NavLink } from 'react-router';
 import { navigationData } from '../../data/navigationData';
+import Typewriter from 'typewriter-effect';
 
 const Header = () => {
 
     const [openSideMenu, setOpenSideMenu] = useState(false);
-
+    // I am a designer :)
     return (
         <header className='header py-4 md:py-6'>
             <div className='container'>
@@ -20,7 +21,18 @@ const Header = () => {
                             {/* Logo */}
                             <Link to='/' className='hover:opacity-65 duration-300' title='Persona Crafted.'>
                                 <h4 className='text-xl md:text-2xl font-semibold mb-0 md:mb-1'>Persona Crafted.</h4>
-                                <span className='block text-sm'>I am a designer :)</span>
+                                <span className='block text-sm'>
+                                    <Typewriter options={{
+                                        strings: [
+                                            "I am Olivia Randhawa :)",
+                                            "I'm a Freelancer.",
+                                            "I'm a Photographer.",
+                                            "I'm a Designer."
+                                        ],
+                                        autoStart: true,
+                                        loop: true,
+                                    }} />
+                                </span>
                             </Link>
                             {/* Logo end */}
                         </div>

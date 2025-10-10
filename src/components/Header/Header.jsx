@@ -4,7 +4,7 @@ import { FaFacebookF, FaGithub } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { FiDownload } from 'react-icons/fi';
 import { HiBars2 } from 'react-icons/hi2';
-import { Link } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import { navigationData } from '../../data/navigationData';
 
 const Header = () => {
@@ -33,12 +33,12 @@ const Header = () => {
                             {/* Nav Toggler End */}
 
                             <div className={`w-[65%] md:w-[50%] duration-700 lg:w-auto h-screen lg:h-auto absolute lg:static right-0 top-0 bottom-0 bg-white lg:bg-transparent p-6 lg:p-0 shadow-lg lg:shadow-none ${openSideMenu ? '' : 'translate-x-full lg:translate-none'}`}>
-                                <ul className='block lg:hidden mt-11'>
+                                <ul className='header-menu block lg:hidden mt-11'>
                                     {
                                         navigationData.map((data) => {
                                             return (
-                                                <li key={data.id} className='py-3 border-b border-dashed border-border'>
-                                                    <Link to={data.path}>{data.name}</Link>
+                                                <li key={data.id} className='header-menu-items py-3 border-b border-dashed border-border'>
+                                                    <NavLink className='header-menu-links block' to={data.path}>{data.name}</NavLink>
                                                 </li>
                                             )
                                         })

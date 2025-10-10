@@ -54,6 +54,10 @@ p {
     @apply right-3 opacity-100 visible
 }
 
+.header .header-menu .header-menu-items .header-menu-links.active {
+    @apply text-primary
+}
+
 .side-nav .link-items.active .link-icon {
     @apply bg-primary text-white
 }

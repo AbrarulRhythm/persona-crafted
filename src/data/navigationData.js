@@ -1,14 +1,14 @@
 const navigationData = [
-    {
-        id: 1,
-        name: "Home",
-        path: "/",
-        icon: "bi bi-house-door"
-    },
+    // {
+    //     id: 1,
+    //     name: "Home",
+    //     path: "/",
+    //     icon: "bi bi-house-door"
+    // },
     {
         id: 2,
         name: "About",
-        path: "/about",
+        path: "/",
         icon: "bi bi-person"
     },
     {

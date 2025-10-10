@@ -11,7 +11,7 @@ import Typewriter from 'typewriter-effect';
 const Header = () => {
 
     const [openSideMenu, setOpenSideMenu] = useState(false);
-    // I am a designer :)
+
     return (
         <header className='header py-4 md:py-6'>
             <div className='container'>
@@ -44,7 +44,7 @@ const Header = () => {
                             </div>
                             {/* Nav Toggler End */}
 
-                            <div className={`w-[65%] md:w-[50%] z-30 duration-700 lg:w-auto h-screen lg:h-auto absolute lg:static right-0 top-0 bottom-0 bg-white lg:bg-transparent p-6 lg:p-0 shadow-lg lg:shadow-none ${openSideMenu ? '' : 'translate-x-full lg:translate-none'}`}>
+                            <div className={`w-[65%] md:w-[50%] z-30 duration-700 lg:w-auto h-screen lg:h-auto fixed lg:static right-0 top-0 bottom-0 bg-white lg:bg-transparent p-6 lg:p-0 shadow-lg lg:shadow-none ${openSideMenu ? '' : 'translate-x-full lg:translate-none'}`}>
                                 <ul className='header-menu block lg:hidden mt-11'>
                                     {
                                         navigationData.map((data) => {

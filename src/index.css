@@ -58,6 +58,7 @@ p {
     @apply text-primary
 }
 
+.link-items:hover .link-icon,
 .side-nav .link-items.active .link-icon {
     @apply bg-primary text-white
 }

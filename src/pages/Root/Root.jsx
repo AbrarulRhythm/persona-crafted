@@ -11,7 +11,7 @@ const Root = () => {
             <Header></Header>
             <SideNav></SideNav>
             <main id='content' className='site-main'>
-                <section className='content-area'>
+                <section className='content-area mt-12 lg:mt-20'>
                     <div className='container'>
                         <div className='flex flex-wrap -mx-3'>
                             {/* Profile Image */}

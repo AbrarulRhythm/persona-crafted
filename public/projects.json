@@ -1,0 +1,224 @@
+[
+    {
+        "id": 1,
+        "name": "Hero.io",
+        "description": [
+            "Hero.io is a modern app showcase platform designed for app-based companies.",
+            "It allows users to browse, download, and install trending apps with ease.",
+            "The UI focuses on simplicity and speed, ensuring a smooth user experience.",
+            "Hero.io also provides analytics for app performance and user engagement."
+        ],
+        "category": "Web App",
+        "tags": [
+            "React",
+            "App Store",
+            "UI",
+            "Frontend"
+        ],
+        "author": "rhythm_dev",
+        "author_name": "Abrarul Rhythm",
+        "author_profession": "Frontend Developer",
+        "small_image": [
+            "/images/heroio-thumb1.png",
+            "/images/heroio-thumb2.png",
+            "/images/heroio-thumb3.png",
+            "/images/heroio-thumb4.png"
+        ],
+        "big_banner": "/images/heroio-banner.png",
+        "date": "2025-09-20",
+        "url": "https://heroio.app",
+        "industry": "Technology",
+        "client": "MountainTheme",
+        "technologies": [
+            "React",
+            "Tailwind",
+            "Vite",
+            "DaisyUI"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Kazi Portal",
+        "description": [
+            "Kazi Portal is a multi-service management system for job and project coordination.",
+            "Users can hire freelancers, manage tasks, and track progress in one platform.",
+            "It supports real-time updates and project milestone tracking.",
+            "The dashboard design provides a clean and intuitive interface for users."
+        ],
+        "category": "Web Platform",
+        "tags": [
+            "Freelance",
+            "Management",
+            "Dashboard",
+            "Web App"
+        ],
+        "author": "rhythm_dev",
+        "author_name": "Abrarul Rhythm",
+        "author_profession": "Web Designer",
+        "small_image": [
+            "/images/kaziportal-thumb1.png",
+            "/images/kaziportal-thumb2.png",
+            "/images/kaziportal-thumb3.png",
+            "/images/kaziportal-thumb4.png"
+        ],
+        "big_banner": "/images/kaziportal-banner.png",
+        "date": "2025-08-15",
+        "url": "https://kaziportal.com",
+        "industry": "Freelancing",
+        "client": "Kazi Portal Team",
+        "technologies": [
+            "PHP",
+            "MySQL",
+            "Bootstrap",
+            "jQuery"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Wild Fife Blog",
+        "description": [
+            "Wild Fife is a nature and wildlife blogging platform.",
+            "It showcases photography, travel stories, and ecological insights.",
+            "Authors can manage posts, upload galleries, and interact with readers.",
+            "SEO optimization and clean UI make it ideal for nature bloggers."
+        ],
+        "category": "Blog Website",
+        "tags": [
+            "Wildlife",
+            "Blog",
+            "Photography",
+            "Nature"
+        ],
+        "author": "rhythm_dev",
+        "author_name": "Abrarul Rhythm",
+        "author_profession": "Content Creator",
+        "small_image": [
+            "/images/wildfife-thumb1.png",
+            "/images/wildfife-thumb2.png",
+            "/images/wildfife-thumb3.png",
+            "/images/wildfife-thumb4.png"
+        ],
+        "big_banner": "/images/wildfife-banner.png",
+        "date": "2025-07-03",
+        "url": "https://wildfife.com",
+        "industry": "Media",
+        "client": "Nature Media Co.",
+        "technologies": [
+            "WordPress",
+            "Elementor",
+            "JavaScript",
+            "CSS"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "MountainTheme Official",
+        "description": [
+            "MountainTheme Official is the digital portfolio of a web theme development company.",
+            "It highlights their work, projects, and premium web templates.",
+            "Users can preview themes, read documentation, and contact the support team.",
+            "The design focuses on professional branding and conversion optimization."
+        ],
+        "category": "Company Portfolio",
+        "tags": [
+            "Theme",
+            "Portfolio",
+            "Agency",
+            "Templates"
+        ],
+        "author": "rhythm_dev",
+        "author_name": "Abrarul Rhythm",
+        "author_profession": "UI/UX Designer",
+        "small_image": [
+            "/images/mountaintheme-thumb1.png",
+            "/images/mountaintheme-thumb2.png",
+            "/images/mountaintheme-thumb3.png",
+            "/images/mountaintheme-thumb4.png"
+        ],
+        "big_banner": "/images/mountaintheme-banner.png",
+        "date": "2025-06-12",
+        "url": "https://mountaintheme.com",
+        "industry": "Web Development",
+        "client": "MountainTheme",
+        "technologies": [
+            "React",
+            "Tailwind",
+            "Framer Motion",
+            "Vite"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "EduSmart",
+        "description": [
+            "EduSmart is an education management platform for schools and colleges.",
+            "It offers online classes, student attendance, and grading automation.",
+            "Teachers can manage class schedules and communicate with students easily.",
+            "It’s designed to simplify digital education in developing regions."
+        ],
+        "category": "Education System",
+        "tags": [
+            "Education",
+            "School",
+            "eLearning",
+            "Management"
+        ],
+        "author": "rhythm_dev",
+        "author_name": "Abrarul Rhythm",
+        "author_profession": "Full Stack Developer",
+        "small_image": [
+            "/images/edusmart-thumb1.png",
+            "/images/edusmart-thumb2.png",
+            "/images/edusmart-thumb3.png",
+            "/images/edusmart-thumb4.png"
+        ],
+        "big_banner": "/images/edusmart-banner.png",
+        "date": "2025-05-01",
+        "url": "https://edusmart.io",
+        "industry": "Education",
+        "client": "Feni City College",
+        "technologies": [
+            "Laravel",
+            "React",
+            "Tailwind",
+            "MySQL"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Trendly",
+        "description": [
+            "Trendly is a social analytics app that tracks trending topics and hashtags.",
+            "It provides insights into what’s popular across different platforms.",
+            "Users can view charts, timelines, and sentiment analysis of topics.",
+            "Designed for marketers, creators, and social media managers."
+        ],
+        "category": "Analytics App",
+        "tags": [
+            "Trends",
+            "Analytics",
+            "Social Media",
+            "Data"
+        ],
+        "author": "rhythm_dev",
+        "author_name": "Abrarul Rhythm",
+        "author_profession": "Frontend Developer",
+        "small_image": [
+            "/images/trendly-thumb1.png",
+            "/images/trendly-thumb2.png",
+            "/images/trendly-thumb3.png",
+            "/images/trendly-thumb4.png"
+        ],
+        "big_banner": "/images/trendly-banner.png",
+        "date": "2025-04-10",
+        "url": "https://trendly.io",
+        "industry": "Marketing",
+        "client": "SocialData Co.",
+        "technologies": [
+            "React",
+            "Recharts",
+            "Tailwind",
+            "Firebase"
+        ]
+    }
+]

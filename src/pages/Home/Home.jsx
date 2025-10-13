@@ -4,11 +4,16 @@ import { BsBriefcase, BsTrophy } from 'react-icons/bs';
 import { PiCrownThin } from 'react-icons/pi';
 import { IoHappyOutline } from 'react-icons/io5';
 import { useLoaderData } from 'react-router';
-import Skill from '../Skill/Skill';
+import Skill from '../../components/Skill/Skill';
+import ProjectStyleOne from '../../components/ProjectStyleOne/ProjectStyleOne';
+import ProjectStyleTwo from '../../components/ProjectStyleTwo/ProjectStyleTwo';
 
 const Home = () => {
 
-    const skillsData = useLoaderData();
+    const { skillsData, projectsData } = useLoaderData();
+    const recentProjects = projectsData.sort((a, b) => b.id - a.id).slice(0, 3);
+    const recentPtojectStyleOne = recentProjects.slice(0, 1);
+    const recentProjectStyleTwo = recentProjects.slice(1, 3);
 
     return (
         <div className='about-me'>
@@ -52,6 +57,27 @@ const Home = () => {
                         )
                     })
                 }
+            </div>
+
+            {/* Recent Projects */}
+            <h2 className='text-xl font-semibold mt-2 mb-6'>Recent Projects</h2>
+            <div className='recent-projects'>
+                <div className='flex flex-wrap -mx-3'>
+                    {
+                        recentPtojectStyleOne.map((project) => {
+                            return (
+                                <ProjectStyleOne key={project.id} project={project}></ProjectStyleOne>
+                            )
+                        })
+                    }
+                    {
+                        recentProjectStyleTwo.map((project) => {
+                            return (
+                                <ProjectStyleTwo key={project.id} project={project}></ProjectStyleTwo>
+                            )
+                        })
+                    }
+                </div>
             </div>
         </div >
     );

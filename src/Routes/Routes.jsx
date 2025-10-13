@@ -12,7 +12,14 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                loader: () => fetch('skills.json'),
+                loader: async () => {
+                    const skillsLoader = fetch('/skills.json').then(res => res.json());
+                    const projectsLoader = fetch('/projects.json').then(res => res.json());
+
+                    const [skillsData, projectsData] = await Promise.all([skillsLoader, projectsLoader])
+
+                    return { skillsData, projectsData };
+                },
                 Component: Home
             }
         ]

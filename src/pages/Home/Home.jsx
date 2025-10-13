@@ -3,8 +3,13 @@ import SectionTitle from '../../components/SectionTitle/SectionTitle';
 import { BsBriefcase, BsTrophy } from 'react-icons/bs';
 import { PiCrownThin } from 'react-icons/pi';
 import { IoHappyOutline } from 'react-icons/io5';
+import { useLoaderData } from 'react-router';
+import Skill from '../Skill/Skill';
 
 const Home = () => {
+
+    const skillsData = useLoaderData();
+
     return (
         <div className='about-me'>
             <SectionTitle title='About Me'></SectionTitle>
@@ -36,7 +41,19 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-        </div>
+
+            {/* My Skills */}
+            <h2 className='text-xl font-semibold mt-8 mb-6'>My Skills</h2>
+            <div className='flex flex-wrap -mx-3'>
+                {
+                    skillsData.map((skill) => {
+                        return (
+                            <Skill Skill key={skill.id} skill={skill} ></Skill>
+                        )
+                    })
+                }
+            </div>
+        </div >
     );
 };
 

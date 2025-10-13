@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Figma",
+        "percentage": 92,
+        "image": "/skills-icon/figma.png",
+        "alt": "Figma logo, design tool for UI/UX design and prototyping"
+    },
+    {
+        "id": 2,
+        "name": "Sketch",
+        "percentage": 80,
+        "image": "/skills-icon/sketch.png",
+        "alt": "Sketch logo, vector design tool for digital design and prototyping"
+    },
+    {
+        "id": 3,
+        "name": "XD",
+        "percentage": 60,
+        "image": "/skills-icon/xd.png",
+        "alt": "Adobe XD logo, design and prototyping tool by Adobe"
+    },
+    {
+        "id": 4,
+        "name": "React",
+        "percentage": 90,
+        "image": "/skills-icon/react.png",
+        "alt": "React logo, JavaScript library for building user interfaces"
+    },
+    {
+        "id": 5,
+        "name": "JavaScript",
+        "percentage": 94,
+        "image": "/skills-icon/js.png",
+        "alt": "JavaScript logo, programming language for web development"
+    },
+    {
+        "id": 6,
+        "name": "WordPess",
+        "percentage": 94,
+        "image": "/skills-icon/wordpress.png",
+        "alt": "WordPress logo, open-source content management system (CMS)"
+    }
+]

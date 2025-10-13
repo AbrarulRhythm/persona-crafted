@@ -12,6 +12,7 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
+                loader: () => fetch('skills.json'),
                 Component: Home
             }
         ]

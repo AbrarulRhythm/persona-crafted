@@ -10,7 +10,7 @@ const Root = () => {
         <div className='main-wrapper'>
             <Header></Header>
             <SideNav></SideNav>
-            <main id='content' className='site-main'>
+            <main id='content' className='site-main pt-20 md:pt-[104px] lg:pt-0'>
                 <section className='content-area mt-12 lg:mt-20'>
                     <div className='container'>
                         <div className='flex flex-wrap -mx-3'>

@@ -13,7 +13,7 @@ const Header = () => {
     const [openSideMenu, setOpenSideMenu] = useState(false);
 
     return (
-        <header className='header py-4 md:py-6'>
+        <header className='header py-4 md:py-6 fixed lg:static top-0 left-0 right-0 z-30 backdrop-blur-md backdrop-saturate-150 bg-white/75'>
             <div className='container'>
                 <nav className='primary-menu'>
                     <div className='flex flex-wrap -mx-3 items-center'>

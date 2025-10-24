@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from '../../components/Header/Header';
-import Footer from '../../components/Footer/Footer';
-import ProfileImage from '../../components/ProfileImage/ProfileImage';
-import SideNav from '../../components/SideNav/SideNav';
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
+import ProfileImage from '../components/ProfileImage/ProfileImage';
+import SideNav from '../components/SideNav/SideNav';
 import { Outlet } from 'react-router';
 
 const Root = () => {
